@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3512d3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.foto_perfil{
+    width: 150px;
+    height: 150px;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 25px #3512d3;
+}
+
+#sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.redes-sociales {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    margin-bottom: 10px;
+}
+
+.redes-sociales li a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociales li a i {
+    margin-right: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li img {
+    width: 20px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    margin-right: 5px; /* Añade un margen a la derecha para separar las imágenes del texto */
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto */
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.proyecto {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 30px 10px;
+    }
+}
+
+/* Estilos adicionales */
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #666;
+}
+
+.proyecto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.proyecto:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul li i {
+    margin-right: 10px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+ul li a:hover {
+    color: #ccc;
+}
